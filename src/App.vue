@@ -8,6 +8,8 @@ const Footer = defineAsyncComponent(() => import('./components/FooterBase.vue'))
 const CountDown = defineAsyncComponent(() => import('./components/CountdownBase.vue'))
 
 const Header = defineAsyncComponent(() => import('./components/HeaderBase.vue'))
+
+const Photo = defineAsyncComponent(() => import('./components/PhotoBase.vue'))
 </script>
 
 <template>
@@ -17,21 +19,9 @@ const Header = defineAsyncComponent(() => import('./components/HeaderBase.vue'))
     <!-- Header End -->
 
     <!-- Kids Profile Start -->
-    <div class="w-full h-full bg-pink_1 text-center p-10">
+    <div class="w-full bg-pink_1 text-center p-10">
       <p class="md:text-5xl text-3xl leading-relaxed mb-5">The Birthday Kid</p>
-      <div
-        data-aos="fade-left"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="1000"
-        data-aos-duration="1000"
-      >
-        <img
-          src="./assets/images/kid.jpg"
-          class="w-56 rounded-t-full mx-auto my-5 leading-relaxed shadow-custom"
-          alt="Nada Safaira Rizqin"
-        />
-        <p class="leading-relaxed text-xl font-bold">Nada Safaira Rizqin</p>
-      </div>
+      <Photo />
     </div>
     <!-- Kids Profile End -->
 
