@@ -1,7 +1,7 @@
 <template>
   <header
     id="header"
-    class="w-full h-full flex justify-center items-center bg-hero bg-top relative"
+    class="w-full h-screen flex justify-center items-center bg-hero bg-top relative"
   >
     <section class="w-full text-center text-white z-10">
       <div class="mb-5">

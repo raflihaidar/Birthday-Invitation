@@ -13,7 +13,7 @@ const Photo = defineAsyncComponent(() => import('./components/PhotoBase.vue'))
 </script>
 
 <template>
-  <main class="h-screen max-w-full font-mono relative">
+  <main class="h-full w-full ont-mono relative">
     <!-- Header Start -->
     <Header />
     <!-- Header End -->
