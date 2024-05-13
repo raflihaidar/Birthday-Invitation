@@ -38,20 +38,20 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center gap-y-3">
-    <div class="flex items-center gap-x-2">
+  <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center gap-y-5 text-justify">
+    <div class="flex items-center gap-x-2" data-aos="zoom-in-up">
       <p class="md:text-6xl text-4xl">{{ timeDifference.days }}</p>
       <p class="text-2xl">Hari</p>
     </div>
-    <div class="flex items-center gap-x-2">
+    <div class="flex items-center gap-x-2" data-aos="zoom-in-up">
       <p class="md:text-6xl text-4xl">{{ timeDifference.hours }}</p>
       <p class="text-2xl">Jam</p>
     </div>
-    <div class="flex items-center gap-x-2">
+    <div class="flex items-center gap-x-2" data-aos="zoom-in-up">
       <p class="md:text-6xl text-4xl">{{ timeDifference.minutes }}</p>
       <p class="text-2xl">Menit</p>
     </div>
-    <div class="flex items-center gap-x-2">
+    <div class="flex items-center gap-x-2" data-aos="zoom-in-up">
       <p class="md:text-6xl text-4xl">{{ timeDifference.seconds }}</p>
       <p class="text-2xl">Detik</p>
     </div>
