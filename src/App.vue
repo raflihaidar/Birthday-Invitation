@@ -19,14 +19,14 @@ const Photo = defineAsyncComponent(() => import('./components/PhotoBase.vue'))
     <!-- Header End -->
 
     <!-- Kids Profile Start -->
-    <div class="w-full bg-pink_1 text-center p-10">
+    <div class="w-full h-screen bg-pink_1 text-center p-10">
       <p class="md:text-5xl text-3xl leading-relaxed mb-5">The Birthday Kid</p>
       <Photo />
     </div>
     <!-- Kids Profile End -->
 
     <!-- Countdown start -->
-    <div id="countdown" class="w-full h-[80%] bg-brown_2 text-center p-10">
+    <div id="countdown" class="w-full h-screen bg-brown_2 text-center p-10">
       <img src="./assets/images/birthday-cake.png" alt="birthday-cake" class="w-16 mx-auto my-5" />
       <h1 class="md:text-5xl text-3xl leading-relaxed mb-10">Menghitung Hari</h1>
       <CountDown />
